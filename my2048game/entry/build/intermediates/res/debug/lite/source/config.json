@@ -1,0 +1,46 @@
+{
+    "app": {
+        "bundleName": "com.example.my2048game",
+        "vendor": "example",
+        "apiVersion": {
+            "compatible": 3,
+            "target": 3
+        },
+        "version": {
+            "code": 1,
+            "name": "1.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true
+        }
+    },
+    "module": {
+        "deviceType": [
+            "liteWearable"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry"
+        },
+        "abilities": [
+            {
+                "name": "default",
+                "icon": "$media:icon",
+                "label": "my2048game",
+                "type": "page",
+                "iconId": 16777216
+            }
+        ],
+        "js": [
+            {
+                "name": "default",
+                "pages": [
+                    "pages/index/index"
+                ]
+            }
+        ]
+    }
+}

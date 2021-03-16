@@ -1,0 +1,24 @@
+<div class="container">
+    <text class="scores">
+        Best {{best}}
+    </text>
+    <text class="scores">
+        Score {{score}}
+    </text>
+
+    <stack class="stack">
+        <div class="tile-wrap" onswipe="onSwipe">
+            <div class="tile" for="{{tiles}}" style="background-color: {{$item.backgroundColor}}">
+                <text class="text" style="color:{{$item.color}};">
+                    {{$item.text}}
+                </text>
+            </div>
+        </div>
+        <div class="subcontainer" show="{{isShow}}">
+            <text class="gameover">
+                游戏结束
+            </text>
+        </div>
+    </stack>
+    <input class="btn" type="button" value="{{Restart}}" onclick="onInit"/>
+</div>

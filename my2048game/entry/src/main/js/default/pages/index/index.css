@@ -1,0 +1,53 @@
+.container {
+    width: 454px;
+    height: 454px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scores {
+    text-align: center;
+    width: 400px;
+    height: 28px;
+    letter-spacing: 0px;
+    margin-top: 5px;
+}
+.tile-wrap {
+    width: 305px;
+    height: 305px;
+    flex-wrap: wrap;
+    background-color: #bbada0;
+}
+.tile {
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    width: 120px;
+    height: 35px;
+    background-color: #AD9D8F;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.text {
+    font-size: 32px;
+}
+.stack{
+    width: 305px;
+    height: 305px;
+    margin-top: 10px;
+}
+.subcontainer {
+    width: 305px;
+    height: 305px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.gameover {
+    color: black;
+}

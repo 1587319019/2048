@@ -1,0 +1,10 @@
+{
+    "appID": "com.example.my2048game",
+    "appName": "my2048game",
+    "versionName": "1.0",
+    "versionCode": 1,
+    "minPlatformVersion": 3,
+    "pages": [
+        "pages/index/index"
+    ]
+}
